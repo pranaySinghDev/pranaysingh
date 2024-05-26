@@ -4,7 +4,7 @@ import { TracingBeam } from "@/components/ui/tracing-beam";
 import Title from './Title';
 
 export default function Experience() {
-    const dummyContent = [
+    const Content = [
         {
           title: "STANCE",
           description: (
@@ -13,7 +13,6 @@ export default function Experience() {
               Stance is a cloud-agnostic compliance platform designed to empower organizations to deploy compliant software and infrastructure by integrating compliance assurance into DevSecOps workflows. This platform enables the creation of composable, testable release, and deployment workflows that align with regulatory requirements and best practices, ensuring that deployments are compliant by design.
               </p>
               <p className=" text-cyan-500"><a href="https://stance.coauth.io/">Website</a></p>
-
             </>
           ),
           badge: "2023-2024",
@@ -63,35 +62,35 @@ export default function Experience() {
   return (
     <div>
       <Title text="Experiences"></Title>
-      <div>
+      <div className="overflow-hidden">
         <TracingBeam className="px-6">
-        <div className="max-w-2xl mx-auto antialiased pt-4 relative">
-            {dummyContent.map((item, index) => (
-            <div key={`content-${index}`} className="mb-10">
-                <h2 className="bg-white text-black rounded-full text-sm w-fit px-4 py-1 mb-4">
-                {item.badge}
-                </h2>
+          <div className="max-w-2xl mx-auto antialiased pt-4 relative">
+              {Content.map((item, index) => (
+              <div key={`content-${index}`} className="mb-10">
+                  <h2 className="bg-white text-black rounded-full text-sm w-fit px-4 py-1 mb-4">
+                  {item.badge}
+                  </h2>
 
-                <p className="text-xl mb-4">
-                {item.title}
-                </p>
+                  <p className="text-xl mb-4">
+                  {item.title}
+                  </p>
 
-                <div className="text-sm  prose prose-sm dark:prose-invert">
-                {item?.image && (
-                    <Image
-                    src={item.image}
-                    alt="blog thumbnail"
-                    height="1000"
-                    width="1000"
-                    className="rounded-lg mb-10 object-cover"
-                    unoptimized
-                    />
-                )}
-                {item.description}
-                </div>
-            </div>
-            ))}
-        </div>
+                  <div className="text-sm  prose prose-sm dark:prose-invert">
+                  {item?.image && (
+                      <Image
+                      src={item.image}
+                      alt="product thumbnail"
+                      height="1000"
+                      width="1000"
+                      className="rounded-lg mb-10 object-cover"
+                      unoptimized
+                      />
+                  )}
+                  {item.description}
+                  </div>
+              </div>
+              ))}
+          </div>
         </TracingBeam>
     </div>
     </div>
