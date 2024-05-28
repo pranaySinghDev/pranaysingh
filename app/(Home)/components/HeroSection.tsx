@@ -16,9 +16,14 @@ export default function HeroSection() {
         {/* <Link className=" inline-block" href={"mailto:pranaysinghdev@gmail.com"}>
           <div><h1> Contact ME</h1></div>
         </Link> */}
-        <a className="inline-block" href="/PranayResume.pdf" download>
+        <a className="inline-block mr-4" href="/PranayResume.pdf" download>
           <button className="px-8 py-0.5  border-2 border-black dark:border-white uppercase bg-white text-black transition duration-200 text-sm shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] ">
           Download Resume
+        </button>
+        </a>
+        <a className="inline-block"  href="https://agent-pranay.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <button className="px-8 py-0.5  border-2 border-black dark:border-white uppercase bg-white text-black transition duration-200 text-sm shadow-[1px_1px_rgba(0,0,0),2px_2px_rgba(0,0,0),3px_3px_rgba(0,0,0),4px_4px_rgba(0,0,0),5px_5px_0px_0px_rgba(0,0,0)] dark:shadow-[1px_1px_rgba(255,255,255),2px_2px_rgba(255,255,255),3px_3px_rgba(255,255,255),4px_4px_rgba(255,255,255),5px_5px_0px_0px_rgba(255,255,255)] ">
+          Talk to my virtual Agent
         </button>
         </a>
       </div>

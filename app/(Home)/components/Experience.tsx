@@ -19,6 +19,18 @@ export default function Experience() {
           image:"/codepipes.gif",
         },
         {
+          title: "Agent Pranay",
+          description: (
+            <>
+              <p>
+              Agent Pranay is a web application that leverages local browser-based language models from WebLLM to answer questions about my resume. This project is part of my portfolio and showcases the integration of modern AI technologies with personal data to provide a seamless user experience.              </p>
+              <p className=" text-cyan-500"><a href="https://agent-pranay.vercel.app/">Website</a></p>
+            </>
+          ),
+          badge: "2023-2024",
+          image:"/agent-pranay.png",
+        },
+        {
           title: "CODEPIPES",
           description: (
             <>
