@@ -14,8 +14,8 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
-      >Jack of <br /> all traits!
+        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-5xl"
+      >A jack of all trades is a master of none, but oftentimes better than a master of one <br /> <p className="text-3xl">- William Shakespeare </p>
       </motion.h1>
     </LampContainer>
   );
